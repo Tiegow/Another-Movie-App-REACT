@@ -9,7 +9,7 @@ Uma aplicação streaming-style para exploração de filmes, trailers e favorito
 ---
 
 ## 🔗 Demonstração
-👉 **[Acesse o projeto online aqui]()** 
+👉 **[Acesse o projeto online aqui](https://another-movie-app-react.vercel.app/)** 
 
 ---
 
