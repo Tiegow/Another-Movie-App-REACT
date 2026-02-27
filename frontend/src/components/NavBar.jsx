@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Film } from "lucide-react"; 
+import { Film, Brain } from "lucide-react";
 
 function NavBar() {
     return (
@@ -7,12 +7,12 @@ function NavBar() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0">
-                        <Link 
-                            to="/" 
+                        <Link
+                            to="/"
                             className="flex items-center gap-2 text-2xl font-bold text-white tracking-tighter hover:opacity-90 transition-opacity"
                         >
                             <Film className="w-6 h-6 text-yellow-500" />
-                            
+
                             <span>
                                 Movie<span className="text-yellow-500">App</span>
                             </span>
@@ -20,18 +20,26 @@ function NavBar() {
                     </div>
 
                     <div className="flex items-center gap-6">
-                        <Link 
-                            to="/" 
+                        <Link
+                            to="/"
                             className="text-slate-300 hover:text-white text-sm font-medium transition-colors duration-200"
                         >
                             Início
                         </Link>
-                        
-                        <Link 
-                            to="/favoritos" 
+
+                        <Link
+                            to="/favoritos"
                             className="text-slate-300 hover:text-yellow-500 text-sm font-medium transition-colors duration-200"
                         >
                             Favoritos
+                        </Link>
+
+                        <Link
+                            to="/quiz"
+                            className="flex items-center gap-1.5 text-slate-300 hover:text-yellow-500 text-sm font-medium transition-colors duration-200"
+                        >
+                            <Brain className="w-4 h-4" />
+                            Quiz
                         </Link>
                     </div>
                 </div>

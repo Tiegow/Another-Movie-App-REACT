@@ -8,6 +8,7 @@ import NavBar from './components/NavBar'
 
 import { MovieProvider } from './contexts/MovieContext'
 import MoviePage from './pages/MoviePage'
+import Quiz from './pages/Quiz'
 import Footer from './components/Footer'
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/favoritos' element={<Favorites />} />
           <Route path='/movie/:id' element={<MoviePage />} />
+          <Route path='/quiz' element={<Quiz />} />
         </Routes>
-      </main> 
+      </main>
 
       <Footer />
     </MovieProvider>
