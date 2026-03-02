@@ -15,14 +15,22 @@ Uma aplicação streaming-style com arquitetura Full-Stack para exploração de 
 
 ---
 
+### Integração com IA
+<div align="center">
+  <img src="./frontend/screenshots/ss3.png" width="820">
+</div>
+
+### Exploração e Busca
 <div align="center">
   <img src="./frontend/screenshots/gif.gif" width="820">
 </div>
 
+### Detalhes
 <div align="center">
   <img src="./frontend/screenshots/ss1.png" width="820">
 </div>
 
+### Favoritos
 <div align="center">
   <img src="./frontend/screenshots/ss2.png" width="820">
 </div>
