@@ -41,12 +41,12 @@ O **MovieApp** é uma aplicação Full-Stack composta por um frontend responsivo
 
 ### ✨ Funcionalidades Principais
 
-* **Exploração Visual:** Layout moderno com grid responsivo e Hero Banners imersivos.
+* **Exploração Visual:** Layout moderno com grid responsivo.
 * **Busca & Filtros:** Pesquisa textual e filtragem dinâmica por categorias.
 * **Carrossel Interativo:** Lista de "Destaques da Crítica" com scroll horizontal.
-* **Página de Detalhes:** Informações detalhadas com trailers e elenco.
+* **Página de Detalhes:** Informações detalhadas com trailers.
 * **Sistema de Favoritos:** Gerenciamento de estado global para salvar os filmes que você curte.
-* **Integração com IA (Google Gemini):** Utiliza o poder da IA generativa através do backend para interações dinâmicas sobre o contexto do filme.
+* **Integração com IA (Google Gemini):** Utiliza o poder da IA generativa através do backend para interações dinâmicas sobre o contexto do filme através de um quiz.
 
 ---
 
